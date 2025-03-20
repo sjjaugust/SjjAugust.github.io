@@ -1,0 +1,52 @@
+title = "Sjj's BLOG"
+theme = "not-much"
+languageCode = "en-us"
+baseURL = "https://sjjaugust.github.io/"
+copyright = "shijunjie © {year}"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+theme = "dark"
+palette = "catpuccin"
+showThemeNotice = true
+showPostsSummary = true
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/about"
+    weight = 2
+  
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/sjjaugust"
+    weight = 4

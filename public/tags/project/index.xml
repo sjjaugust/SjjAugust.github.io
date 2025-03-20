@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Sjj&#39;s BLOG</title>
+    <link>https://sjjaugust.github.io/tags/project/</link>
+    <description>Recent content in Project on Sjj&#39;s BLOG</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>shijunjie © {year}</copyright>
+    <lastBuildDate>Thu, 20 Mar 2025 20:14:02 +0800</lastBuildDate>
+    <atom:link href="https://sjjaugust.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>P-Project50</title>
+      <link>https://sjjaugust.github.io/posts/p-project50/</link>
+      <pubDate>Thu, 20 Mar 2025 20:14:02 +0800</pubDate>
+      <guid>https://sjjaugust.github.io/posts/p-project50/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
