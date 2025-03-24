@@ -4,7 +4,7 @@ description: "记录钢琴学习历程"
 date: 2025-03-24T17:06:47+08:00
 keywords: []
 tags: ["project"]
-summary: ""
+summary: "记录钢琴学习历程"
 toc: true
 ---
 

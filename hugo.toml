@@ -18,8 +18,8 @@ copyright = "shijunjie © {year}"
 [params]
 theme = "dark"
 palette = "catpuccin"
-showThemeNotice = true
-showPostsSummary = true
+showPostsSummary = true 
+showThemeNotice = false
 
 # Navigation
 [menu]
