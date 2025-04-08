@@ -1,11 +1,11 @@
 title = "Sjj's BLOG"
-theme = "not-much"
+theme = "PaperMod"
 languageCode = "en-us"
 baseURL = "https://sjjaugust.github.io/"
 copyright = "shijunjie © {year}"
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup]
   [markup.highlight]
@@ -13,40 +13,78 @@ copyright = "shijunjie © {year}"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.mermaid]
+    options={theme="default"}
+
+[socialIcons]
+  name = "rss"
+  url = "https://sjjaugust.github.io/index.xml"
 
 
 [params]
-theme = "dark"
-palette = "catpuccin"
-showPostsSummary = true 
-showThemeNotice = false
+  defaultTheme = "auto"
+  ShowShareButtons = false 
+  ShareButtons = ["rss"]
+  ShowReadingTime = true
+  ShowToc = true
+  TocOpen = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  Comments = false
+  [params.homeInfoParams]
+    Title = "Hi there!"  
+    Content = "行吧"
+  [[param.socialIcons]]
+    name = "Github"
+    url = "https://github.com/sjjaugust"
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1_000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = [ "title", "permalink", "summary", "content" ]
+  [params.editPost]
+    URL = "https://github.com/sjjaugust/SjjAugust.github.io/tree/main/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
+
 
 # Navigation
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "home"
-    title = "Home"
-    url = "/"
+    identifier = "archives"
+    name = "所有文章"
+    url = "/archives"
     weight = 1
-  
+
   [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/posts"
-    weight = 3
+    identifier = "search"
+    name = "搜索"
+    url = "/search"
+    weight = 2
+   
   
   [[menu.main]]
     identifier = "about"
-    name = "about"
-    title = "About"
+    name = "关于我"
     url = "/about"
-    weight = 2
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags"
+    weight = 4
   
   [[menu.main]]
     identifier = "github"
     name = "github"
-    title = "GitHub"
     url = "https://github.com/sjjaugust"
-    weight = 4
+    weight = 5
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "https://sjjaugust.github.io/index.xml"
+    weight = 6

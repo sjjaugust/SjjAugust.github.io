@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-24T17:06:47+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/p-%E5%AD%A6%E7%82%B9piano/</loc>
-    <lastmod>2025-03-24T17:06:47+08:00</lastmod>
+    <loc>http://localhost:1313/posts/p-2025%E6%97%A5%E6%9C%AC%E6%97%85%E8%A1%8C%E8%AE%A1%E5%88%92/</loc>
+    <lastmod>2025-04-02T12:55:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-24T17:06:47+08:00</lastmod>
+    <lastmod>2025-04-02T12:55:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/project/</loc>
-    <lastmod>2025-03-24T17:06:47+08:00</lastmod>
+    <lastmod>2025-04-02T12:55:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-02T12:55:33+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-02T12:55:33+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/p-%E5%AD%A6%E7%82%B9piano/</loc>
     <lastmod>2025-03-24T17:06:47+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/p-project50/</loc>
@@ -22,6 +25,10 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
